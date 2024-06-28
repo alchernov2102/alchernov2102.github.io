@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const  CopyWebpackPlugin  = require("copy-webpack-plugin");
 
-const multipleHTMLNames = ["schedule", "about", "news", "photo"];
+const multipleHTMLNames = ["schedule", "about", "news", "photo", "labs"];
 // Generate HtmlWebpackPlugin for evety page name
 const multipleHTMLPlugins = multipleHTMLNames.map((name) => {
   return new HtmlWebpackPlugin({
